@@ -1,0 +1,12 @@
+$ git config --global user.name "edward"//给自己起个用户名
+$ git config --global user.email "fate_edward@163.com"//填写自己的邮箱
+git init
+git add .
+git commit -m "测试提交"
+git remote add origin https://github.com/edwardyyp/JPA-Mybatis.git
+（
+如果遇到了fatal: remote origin already exists.输入:
+git remote rm origin
+git remote add origin https://github.com/edwardyyp/JPA-Mybatis.git
+）
+git push -u origin master
